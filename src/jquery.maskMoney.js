@@ -192,8 +192,7 @@
                         valueWithoutSymbol = value.replace(settings.prefix, "").replace(settings.suffix, ""),
                         integerPart = valueWithoutSymbol.split(settings.decimal)[0],
                         newValue,
-                        decimalPart = "",
-                        leadingZeros = "";
+                        decimalPart = "";
 
                     newValue = buildIntegerPart(integerPart, negative);
 
