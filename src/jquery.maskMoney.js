@@ -272,7 +272,8 @@
                         return false;
                     }
 
-                    // any key except the numbers 0-9
+                    // any key except the numbers 0-9. if we're using settings.reverse,
+                    // allow the user to input the decimal key
                     if ((key < 48 || key > 57) && (key !== decimalKeyCode || !settings.reverse)) {
                         return handleAllKeysExceptNumericalDigits(key, e);
                     } else if (!canInputMoreNumbers()) {
