@@ -91,6 +91,7 @@ npm install && grunt test
  * [Daniel Loureiro](https://github.com/loureirorg)
  * [Thiago Silva](http://twitter.com/tafs7/)
  * [Guilherme Nagatomo](https://github.com/guilhermehn)
+ * [Andrew Duncan](https://github.com/abduncan)
 
 ***
 ### License:
